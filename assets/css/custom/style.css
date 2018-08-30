@@ -502,7 +502,7 @@ img {
 
 /* Section title */
 section .section-title {
-	margin-bottom:40px;
+	margin-bottom:20px;
 	color:#999;
 }
 
@@ -1506,4 +1506,22 @@ footer .social-icon a:hover i {
 	font-size: 24px;
 	line-height: 1;
 	font-family: Cookie;
+}
+
+.about-me-image{
+	/*height: 200px;*/
+	width: 300px !important;
+
+}
+
+.about-me-image > img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transform: rotate(-3deg);
+}
+.about-me-image > img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transform: rotate(0deg);
+    transition: all 0.5s;
 }
