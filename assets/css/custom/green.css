@@ -1,0 +1,32 @@
+a:hover, 
+a:focus,
+.btn,
+.navbar .logo > span,
+.menu-lightbox .menu li a:hover,
+.works-filters li:hover,
+.fa-li.colored,
+.contact-box .icon,
+#contact-form .text-danger,
+footer .copyright > a {
+	color:#24b7a4;
+}
+
+.line-scale .line,
+.intro-text .words-wrapper,
+.works-filters li.active,
+.works .portfolio-item .loading,
+.testimonials .owl-theme .owl-dot.active span,
+.btn:hover, .btn:active, .btn:focus,
+.blog .side-content .tags .tag {
+	background-color:#24b7a4;
+}
+
+.blog .side-content .tags .tag:hover {
+  	background-color:rgba(36, 183, 164, 0.8);
+}
+
+.btn,
+.form-control:focus,
+input:focus, textarea:focus, select:focus {
+	border-color:#24b7a4;
+}
