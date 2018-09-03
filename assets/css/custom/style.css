@@ -140,87 +140,29 @@ img {
 .page-loader {
 	position:fixed;
   	z-index:9999;
-  	left:0;
-  	right:0;
-  	bottom:0;
-  	top:0;
+  	height:100vh;
+  	width: 100vw;
 	background-color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.page-loader .line-scale {
-  	position:absolute;
-  	top:49%;
-  	left:49%;
+.page-loader > .logo {
+	width: 200px;
+	height: 200px;
+	-webkit-animation: rot 5s infinite linear;
 }
 
-.line-scale .line {
-	display:inline-block;
-	width:4px;
-	height:35px;
-	margin:2px;
-	border-radius:2px;	
-	-webkit-animation-fill-mode:both;
-			animation-fill-mode:both;
-}
-
-.line-scale .line1 {
-	-webkit-animation:line-scale 1s 0.1s infinite cubic-bezier(.2, .68, .18, 1.08);
-			animation:line-scale 1s 0.1s infinite cubic-bezier(.2, .68, .18, 1.08)
-}
-
-.line-scale .line2 {
-	-webkit-animation:line-scale 1s 0.2s infinite cubic-bezier(.2, .68, .18, 1.08);
-			animation:line-scale 1s 0.2s infinite cubic-bezier(.2, .68, .18, 1.08)
-}
-
-.line-scale .line3 {
-	-webkit-animation:line-scale 1s 0.3s infinite cubic-bezier(.2, .68, .18, 1.08);
-			animation:line-scale 1s 0.3s infinite cubic-bezier(.2, .68, .18, 1.08)
-}
-
-.line-scale .line4 {
-	-webkit-animation:line-scale 1s 0.4s infinite cubic-bezier(.2, .68, .18, 1.08);
-			animation:line-scale 1s 0.4s infinite cubic-bezier(.2, .68, .18, 1.08)
-}
-
-.line-scale .line5 {
-	-webkit-animation:line-scale 1s 0.5s infinite cubic-bezier(.2, .68, .18, 1.08);
-			animation:line-scale 1s 0.5s infinite cubic-bezier(.2, .68, .18, 1.08)
-}
-
-@-webkit-keyframes line-scale {
-	0% {
-		-webkit-transform:scaley(1);
-				transform:scaley(1);
+@-webkit-keyframes rot {
+	from {
+			-webkit-transform: rotate(0deg);
 	}
-	
-	50% {
-		-webkit-transform:scaley(0.4);
-				transform:scaley(0.4);
-	}
-	
-	100% {
-		-webkit-transform:scaley(1);
-				transform:scaley(1);
+	to {
+			-webkit-transform: rotate(359deg);
 	}
 }
 
-@keyframes loader {
-	0% {
-		-webkit-transform:scaley(1);
-				transform:scaley(1);
-	}
-	
-	50% {
-		-webkit-transform:scaley(0.4);
-				transform:scaley(0.4);
-	}
-	
-	100% {
-		-webkit-transform:scaley(1);
-				transform:scaley(1);
-	}
-}
 
 /************************
     - 3. Navigation -
@@ -1519,6 +1461,7 @@ footer .social-icon a:hover i {
     border-radius: 4px;
     padding: 5px;
     transform: rotate(-3deg);
+    transition: all 0.5s;
 }
 .about-me-image > img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
