@@ -84,9 +84,10 @@
 			//Slide background
 			if ($(".intro.slide-bg").length>0) {
 				$(".intro.slide-bg").backstretch([
-					"./assets/images/bg.jpg", 
-					"./assets/images/bg.jpg", 
-					"./assets/images/bg.jpg"
+					"./assets/images/bg1.jpg", 
+					"./assets/images/bg2.jpg", 
+					"./assets/images/bg3.jpg",
+					"./assets/images/bg4.jpg"
 				], {duration:3000, fade:750});
 			}
 			

@@ -21,7 +21,7 @@
 	}
 
 	.intro .intro-text {
-	    font-size:28px;
+		font-size:24px;
 		line-height:36px;
 	}
 	
@@ -57,6 +57,10 @@
 	.portfolio .portfolio-wrapper .portfolio-item {
 		width:50%;
 	}
+	.about-me-image{
+		/*height: 200px;*/
+		width: 200px !important;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -78,6 +82,11 @@
 	.contact-right {
 		padding-left:15px !important;
 		margin-top:40px;
+	}
+	.about-me-image{
+		/*height: 200px;*/
+		width: 150px !important;
+		margin: 10px;
 	}
 }
 
