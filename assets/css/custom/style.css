@@ -146,6 +146,8 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	font-family: Cookie;
 }
 
 .page-loader > .logo {
@@ -712,8 +714,8 @@ section .section-title .icon.close:hover {
 .skills-holder .wrap {
 	display:inline-table;
     position:relative;
-    width:70px;
-    height:160px;
+    width:100px;
+    height:230px;
     vertical-align:bottom;
     z-index:1;
 }
@@ -722,7 +724,7 @@ section .section-title .icon.close:hover {
 	position:absolute;
 	left:20px;
 	bottom:0;
-  	width:30px;
+  	width:40px;
 	height:160px;
   	margin:0 auto;
     background-color:#fd7061;
@@ -739,60 +741,60 @@ section .section-title .icon.close:hover {
 	content:"";
 	position:absolute;
 	bottom:0;
-	width:calc(100% + 3px);
+	width:calc(100% + 5px);
 	left:0;
 	right:0;
-	border-bottom:1px solid rgba(0, 0, 0, 0.1);
+	border-bottom:1px solid rgba(0, 0, 0, 0.5);
 }
 
 .skills-holder .wrap > div[data-percent="1"] {
-	height:60px;
-	background-color:#bfbfbf;
+	height:30px;
+	background-color: #DAF7A6;
 }
 
 .skills-holder .wrap > div[data-percent="2"] {
-	height:60px;
-	background-color:#bfbfbf;
+	height:50px;
+	background-color: #DAF7A6;
 }
 
 .skills-holder .wrap > div[data-percent="3"] {
-	height:60px;
-	background-color:#fdcc61;
+	height:70px;
+	background-color: #DAF7A6;
 }
 
 .skills-holder .wrap > div[data-percent="4"] {
-	height:60px;
-	background-color:#fdcc61;
+	height:90px;
+	background-color: #DAF7A6;
 }
 
 .skills-holder .wrap > div[data-percent="5"] {
-	height:80px;
-	background-color:#c5dfc9;
+	height:110px;
+	background-color: #DAF7A6;
 }
 
 .skills-holder .wrap > div[data-percent="6"] {
-	height:80px;
-	background-color:#c5dfc9;
+	height:130px;
+	background-color: #FFC300;
 }
 
 .skills-holder .wrap > div[data-percent="7"] {
-	height:100px;
-	background-color:#ffcb98;
+	height:150px;
+	background-color: #FF5733;
 }
 
 .skills-holder .wrap > div[data-percent="8"] {
-	height:120px;
-	background-color:#cbe6ec;
+	height:170px;
+	background-color: #C70039;
 }
 
 .skills-holder .wrap > div[data-percent="9"] {
-	height:120px;
-	background-color:#a6b1d9;
+	height:190px;
+	background-color: #900C3F;
 }
 
 .skills-holder .wrap > div[data-percent="10"] {
-	height:160px;
-	background-color:#fd7061;
+	height:210px;
+	background-color: #581845;
 }
 
 .skills-holder .wrap > div > p {
