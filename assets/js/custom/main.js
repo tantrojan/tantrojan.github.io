@@ -74,22 +74,22 @@
 		
 		//Intro
 		intro:function() {
-			if ($(".intro").length===0) {return;}
+			// if ($(".intro").length===0) {return;}
 			
-			//Image background
-			if ($(".intro.image-bg").length>0) {
-				$(".intro.image-bg").backstretch("./assets/images/bg.jpg");
-			}
+			// //Image background
+			// if ($(".intro.image-bg").length>0) {
+			// 	$(".intro.image-bg").backstretch("./assets/images/bg.jpg");
+			// }
 			
-			//Slide background
-			if ($(".intro.slide-bg").length>0) {
-				$(".intro.slide-bg").backstretch([
-					"./assets/images/bg1.jpg", 
-					"./assets/images/bg2.jpg", 
-					"./assets/images/bg3.jpg",
-					"./assets/images/bg4.jpg"
-				], {duration:3000, fade:750});
-			}
+			// //Slide background
+			// if ($(".intro.slide-bg").length>0) {
+			// 	$(".intro.slide-bg").backstretch([
+			// 		"./assets/images/bg1.jpg", 
+			// 		"./assets/images/bg2.jpg", 
+			// 		"./assets/images/bg3.jpg",
+			// 		"./assets/images/bg4.jpg"
+			// 	], {duration:3000, fade:750});
+			// }
 			
 			//Video background
 			if ($(".intro.video-bg").length>0) {
