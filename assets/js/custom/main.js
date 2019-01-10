@@ -323,7 +323,7 @@
 					}
 					
 					$.ajax({
-						url:"././contact.php",
+						url:"http://127.0.0.1:3000/contact",
 						type:"POST",
 						data:{
 							name:name,
